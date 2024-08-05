@@ -1,0 +1,79 @@
+#userForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+/* Form label styling */
+#userForm label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Text input styling */
+#userForm input[type="text"],
+#userForm select,
+#userForm textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+/* Radio button and checkbox styling */
+#userForm input[type="radio"],
+#userForm input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+/* Button styling */
+#userForm button {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#userForm button:hover {
+    background-color: #0056b3;
+}
+
+/* Additional spacing and alignment */
+#userForm br {
+    display: none;
+}
+
+#userForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#userForm .form-group {
+    margin-bottom: 20px;
+}
+
+#userForm .form-group > label {
+    margin-bottom: 5px;
+}
+
+#userForm .form-group > input,
+#userForm .form-group > select,
+#userForm .form-group > textarea {
+    margin-bottom: 10px;
+}
+
+#userForm .form-group > .form-check-label {
+    margin-left: 5px;
+}

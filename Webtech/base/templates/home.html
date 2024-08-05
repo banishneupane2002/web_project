@@ -1,0 +1,133 @@
+
+{% extends "base.html" %}
+{% block content %}
+{% load static %}
+
+
+<div class="container">
+        <div class="logo">
+            <img src="static/images/logo.png" alt="Programming PEN">
+        </div>
+        <div class="sectionSearch">
+            <div class="searchBox">
+                <i class="fas fa-search"></i>
+                <input type="search" placeholder="Search">
+            </div>
+        </div>
+        <div class="firstSectinImage">
+            <img src="static/images/smarket.png" alt="" srcset="">
+        </div>
+        <div class="firstSectionHeading">
+            <h1><span>Learn</span> Everyhing</h1>
+            <h1 class="letterSpacing"> about <span>Share Market</span></h1>
+            <a  href="{% url "base:user_form" %}"
+            <button class="joinus">Join Us</button>
+        </a>
+        
+        </div>
+        <div class="mediaIcons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/9e5a623fa6.js" crossorigin="anonymous"></script>
+  
+  
+  
+  <section class="productSection">
+        <h3>Our <span>Courses</span> Available</h3>
+        <div class="product">
+            <div class="productBox">
+                <img src="static/images/personalfinance.jpg">
+                <p>Personal Finance</p>
+                <a href="">$27.99</a>
+                <a href="" class="btnCart">Add to cart</a>
+            </div>
+            <div class="productBox">
+                <img src="static/images/investment_basics.png">
+                <p>Investment Basics</p>
+                <a href="">$58.99</a>
+                <a href="" class="btnCart">Add to cart</a>
+            </div>
+            <div class="productBox">
+                <img src="static/images/risk_mgmt.jpg">
+                <p>Risk Management</p>
+                <a href="">$41.98</a>
+                <a href="" class="btnCart">Add to cart</a>
+            </div>
+            <div class="productBox">
+                <img src="static/images/tech_analysis.jpg">
+                <p>Technical Analysis</p>
+                <a href="">$68.35</a>
+                <a href="" class="btnCart">Add to cart</a>
+            </div>
+            <div class="productBox">
+                <img src="static/images/img1.png">
+                <p>Fundamental Analysis</p>
+                <a href="">$89.99</a>
+                <a href="" class="btnCart">Add to cart</a>
+            </div>
+            <div class="productBox">
+                <img src="static/images/img02.jpg">
+                <p>Investment Strategies</p>
+                <a href="">$32.99</a>
+                <a href="" class="btnCart">Add to cart</a>
+            </div>
+        </div>
+    </section>
+  
+  
+  
+  <section class="aboutCompany">
+      <div class="aboutBox">
+          <h1>Share Durbar </h1>
+          <h4>UNVEILING THE SECRETS OF STOCK MARKET INVESTING – LEARN ONLINE 
+          <p>Share Durbar stands at the forefront of online education, providing a comprehensive range of courses designed to empower individuals with the knowledge and skills needed to navigate the stock market. With a commitment to delivering high-quality, accessible education, Share Durbar offers expert-led courses tailored for beginners and advanced traders alike..</p>
+      </div>
+      <div class="aboutBox">
+          <img src="static/images/LOGO_FB.png">
+      </div>
+  </section>
+  
+  
+  
+  
+  
+ <footer class="footerSection">
+        <div id="footerContanier">
+
+            <div id="footerLogoLeft">
+                Share Durbar
+            </div>
+            <div id="footerSocialIcon">
+                <a href="https://www.instagram.com/yourprofile" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="24">
+                </a>
+                <a href="https://www.facebook.com/yourprofile" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook" width="24">
+                </a>
+                <a href="https://www.youtube.com/yourchannel" target="_blank">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/4/42/YouTube_icon_%282013-2017%29.png" alt="YouTube" width="24">
+                </a>
+            </div>
+
+            <div id="footerCenter">
+
+                <h3>Contact Us</h3>
+                <p><span>Tel:</span>061 765 342 122</p>
+                <p><span>E-Mail:</span>hello@sharedurbar.com</p>
+                <p><span>Web:</span>www.sharedurbar.com</p>
+                <p><span>Adress:</span>427,Kathmandu ,Bagmati, Nepal</p>
+
+            </div>
+
+            <div id="footerRight">
+                <h3>About Us</h3>
+                <p>Share Durbar stands at the forefront of online education, providing a comprehensive range of courses designed to empower individuals with the knowledge and skills needed to navigate the stock market.</p>
+            </div>
+        </div>
+    </footer>
+   
+{% endblock content %} 
